@@ -57,6 +57,7 @@ header ul a {
     background-color: rgba(117, 181, 241, 0.76);
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .hero-title {
@@ -78,3 +79,9 @@ header ul a {
     border: 1px solid black;
 }
 
+img {
+    max-width: 30vw;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 2px 2px 25px 5px rgb(215, 228, 240);
+}
